@@ -1,0 +1,50 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.formatOnType": true,
+  "eslint.enable": true,
+  "html.format.extraLiners": "!",
+  "search.exclude": {
+    "node_modules": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.count": 80,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "newLineEachExpressionAfterCountLimit",
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.sortConfiguration.joinImportPaths": false,
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.sortConfiguration.customOrderingRules.rules": [
+    {
+      "type": "importMember",
+      "regex": "^$",
+      "orderLevel": 10
+    },
+    {
+      "regex": "^@[a-z]",
+      "orderLevel": 25
+    },
+    {
+      "regex": "^[@/]",
+      "orderLevel": 30
+    },
+    {
+      "regex": "^[.]",
+      "orderLevel": 40
+    }
+  ],
+  "javascript.preferences.quoteStyle": "double",
+  "editor.tabSize": 2,
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.format.semicolons": "insert",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "importSorter.importStringConfiguration.quoteMark": "double",
+  "importSorter.importStringConfiguration.trailingComma": "multiLine",
+  "triggerTaskOnSave.tasks": {
+    "create-index-file": ["!index.{tsx,ts}", "src/**/*.{tsx,ts}"]
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}

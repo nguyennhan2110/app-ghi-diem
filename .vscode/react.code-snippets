@@ -1,0 +1,33 @@
+{
+  "New View": {
+    "prefix": "new component",
+    "body": [
+      "import React from \"react\";",
+      "import { View, StyleSheet, Text } from \"react-native\";",
+      "",
+      "interface I${TM_FILENAME_BASE}Props {",
+      "}",
+      "",
+      "export function ${TM_FILENAME_BASE}(props: I${TM_FILENAME_BASE}Props) {",
+      "\treturn (",
+      "\t\t<View style={styles.container}>",
+      "\t\t\t<Text>null</Text>",
+      "\t\t</View>",
+      "\t);",
+      "}",
+      "",
+      "const styles = StyleSheet.create({",
+      "\tcontainer: {",
+      "\tflex: 1,",
+      "\t},",
+      "});",
+      ""
+    ],
+    "scope": "typescript,typescriptreact"
+  },
+  "ComponentProps": {
+    "prefix": "new props",
+    "body": ["interface I${1:$TM_FILENAME_BASE}Props {", "\t$0", "}", ""],
+    "scope": "typescript, typescriptreact"
+  }
+}
