@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AppGhiDiemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AppGhiDiemTests.m */; };
+		05414FDB3C634B2C8DC10940 /* SFNSDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C255DA0F912646928300409E /* SFNSDisplay-Bold.otf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-AppGhiDiem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AppGhiDiem.a */; };
+		1101F7222ADF45F286C1FD07 /* SFNSDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F18FEBF279514CCFA541528A /* SFNSDisplay-Medium.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D5BED430F0F4B6683F6031C /* SFNSDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E57404574CA745D5A7EBBD24 /* SFNSDisplay-Thin.otf */; };
+		67F40249D59F43B9AAAD9120 /* SFNSDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D501B6A7A8F4A31B190FCF1 /* SFNSDisplay-Regular.otf */; };
 		7699B88040F8A987B510C191 /* libPods-AppGhiDiem-AppGhiDiemTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppGhiDiem-AppGhiDiemTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		89D9128C17EA423D94BD2B47 /* SFNSDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 248816D13F9840C5A77C62BE /* SFNSDisplay-Black.otf */; };
-		05414FDB3C634B2C8DC10940 /* SFNSDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C255DA0F912646928300409E /* SFNSDisplay-Bold.otf */; };
-		1101F7222ADF45F286C1FD07 /* SFNSDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F18FEBF279514CCFA541528A /* SFNSDisplay-Medium.otf */; };
-		67F40249D59F43B9AAAD9120 /* SFNSDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2D501B6A7A8F4A31B190FCF1 /* SFNSDisplay-Regular.otf */; };
-		1D5BED430F0F4B6683F6031C /* SFNSDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E57404574CA745D5A7EBBD24 /* SFNSDisplay-Thin.otf */; };
 		94F41746889E45D793E9FB19 /* SFNSDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 47B09ED8588E44DFA5E14DDA /* SFNSDisplay-Ultralight.otf */; };
 /* End PBXBuildFile section */
 
@@ -43,19 +43,19 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppGhiDiem/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppGhiDiem/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppGhiDiem-AppGhiDiemTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppGhiDiem-AppGhiDiemTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		248816D13F9840C5A77C62BE /* SFNSDisplay-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFNSDisplay-Black.otf"; path = "../assets/fonts/SFNSDisplay-Black.otf"; sourceTree = "<group>"; };
+		2D501B6A7A8F4A31B190FCF1 /* SFNSDisplay-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFNSDisplay-Regular.otf"; path = "../assets/fonts/SFNSDisplay-Regular.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AppGhiDiem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGhiDiem.debug.xcconfig"; path = "Target Support Files/Pods-AppGhiDiem/Pods-AppGhiDiem.debug.xcconfig"; sourceTree = "<group>"; };
+		47B09ED8588E44DFA5E14DDA /* SFNSDisplay-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFNSDisplay-Ultralight.otf"; path = "../assets/fonts/SFNSDisplay-Ultralight.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AppGhiDiem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGhiDiem.release.xcconfig"; path = "Target Support Files/Pods-AppGhiDiem/Pods-AppGhiDiem.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AppGhiDiem-AppGhiDiemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGhiDiem-AppGhiDiemTests.debug.xcconfig"; path = "Target Support Files/Pods-AppGhiDiem-AppGhiDiemTests/Pods-AppGhiDiem-AppGhiDiemTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AppGhiDiem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppGhiDiem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppGhiDiem/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AppGhiDiem-AppGhiDiemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppGhiDiem-AppGhiDiemTests.release.xcconfig"; path = "Target Support Files/Pods-AppGhiDiem-AppGhiDiemTests/Pods-AppGhiDiem-AppGhiDiemTests.release.xcconfig"; sourceTree = "<group>"; };
+		C255DA0F912646928300409E /* SFNSDisplay-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFNSDisplay-Bold.otf"; path = "../assets/fonts/SFNSDisplay-Bold.otf"; sourceTree = "<group>"; };
+		E57404574CA745D5A7EBBD24 /* SFNSDisplay-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFNSDisplay-Thin.otf"; path = "../assets/fonts/SFNSDisplay-Thin.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		248816D13F9840C5A77C62BE /* SFNSDisplay-Black.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Black.otf"; path = "../assets/fonts/SFNSDisplay-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C255DA0F912646928300409E /* SFNSDisplay-Bold.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Bold.otf"; path = "../assets/fonts/SFNSDisplay-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F18FEBF279514CCFA541528A /* SFNSDisplay-Medium.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Medium.otf"; path = "../assets/fonts/SFNSDisplay-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2D501B6A7A8F4A31B190FCF1 /* SFNSDisplay-Regular.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Regular.otf"; path = "../assets/fonts/SFNSDisplay-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E57404574CA745D5A7EBBD24 /* SFNSDisplay-Thin.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Thin.otf"; path = "../assets/fonts/SFNSDisplay-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		47B09ED8588E44DFA5E14DDA /* SFNSDisplay-Ultralight.otf */ = {isa = PBXFileReference; name = "SFNSDisplay-Ultralight.otf"; path = "../assets/fonts/SFNSDisplay-Ultralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F18FEBF279514CCFA541528A /* SFNSDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SFNSDisplay-Medium.otf"; path = "../assets/fonts/SFNSDisplay-Medium.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5E0A724FF6BA43D7B80A79A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				248816D13F9840C5A77C62BE /* SFNSDisplay-Black.otf */,
+				C255DA0F912646928300409E /* SFNSDisplay-Bold.otf */,
+				F18FEBF279514CCFA541528A /* SFNSDisplay-Medium.otf */,
+				2D501B6A7A8F4A31B190FCF1 /* SFNSDisplay-Regular.otf */,
+				E57404574CA745D5A7EBBD24 /* SFNSDisplay-Thin.otf */,
+				47B09ED8588E44DFA5E14DDA /* SFNSDisplay-Ultralight.otf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,20 +174,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		5E0A724FF6BA43D7B80A79A3 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				248816D13F9840C5A77C62BE /* SFNSDisplay-Black.otf */,
-				C255DA0F912646928300409E /* SFNSDisplay-Bold.otf */,
-				F18FEBF279514CCFA541528A /* SFNSDisplay-Medium.otf */,
-				2D501B6A7A8F4A31B190FCF1 /* SFNSDisplay-Regular.otf */,
-				E57404574CA745D5A7EBBD24 /* SFNSDisplay-Thin.otf */,
-				47B09ED8588E44DFA5E14DDA /* SFNSDisplay-Ultralight.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

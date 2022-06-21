@@ -1,7 +1,7 @@
 export default {
   default: 14,
-  label: 24,
-  link: 18,
+  label: 20,
+  link: 16,
   button: 24,
   input: 16,
   font10: 10,

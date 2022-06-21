@@ -1,13 +1,15 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
+import { Header } from "@/components/molecules";
+
 interface IListUserScreenProps {
 }
 
 export function ListUserScreen(props: IListUserScreenProps) {
   return (
     <View style={styles.container}>
-      <Text>user</Text>
+      <Header text="Người chơi gần đây"/>
     </View>
   );
 }
