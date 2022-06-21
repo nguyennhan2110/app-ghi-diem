@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     fontSize: fonts.font14,
   },
   wrapCustomTabButton: {
-    top: normalize(-30),
+    top: normalize(-20),
     justifyContent: 'center',
     alignItems: 'center',
   },
